@@ -7,5 +7,5 @@ const obj = {
 }
 
 function animal(obj){
-  return "This " + obj.color + " " + obj.name + " has " + obj.legs + " legs.";
+  return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`;
 }
